@@ -2,10 +2,18 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title></title>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css">
+    <!-- <script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script> -->
 </head>
 <body>
-	<script src="/main.entry.js"></script>
+    <div class="buttons">
+        <button id="run-worker" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Run worker</button>
+        <button id="load-chunk" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Load chunk</button>
+    </div>
+    <pre id="log"></pre>
+    <script src="/main.entry.js"></script>
 </body>
 </html>

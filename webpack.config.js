@@ -7,5 +7,10 @@ module.exports = {
   output: {
     filename: "[name].entry.js"
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
+  module: {
+    loaders: [
+      { test: /\.css$/, loader: "style!css" }
+    ]
+  }
 };

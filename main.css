@@ -1,0 +1,17 @@
+
+* {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#log {
+  column-count: 3;
+  flex: 1;
+}
