@@ -1,0 +1,10 @@
+{
+  "name": "trywebpack",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.14"
+  }
+}
